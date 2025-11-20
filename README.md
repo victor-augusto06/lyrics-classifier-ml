@@ -67,7 +67,7 @@ Para utilizar o classificador em outro script python, basta importar a classe:
     print(f"Probabilidades: {probs}")
 ```
 ## 👥 Autores
-- [Victor Augusto Farias Ferreira]
-- [Felipe Alexandre Pereira]
-- [Lucas Barroso Silvestrini]
-- [Matheus de Farias Garcia]
+- Victor Augusto Farias Ferreira
+- Felipe Alexandre Pereira
+- Lucas Barroso Silvestrini
+- Matheus de Farias Garcia
