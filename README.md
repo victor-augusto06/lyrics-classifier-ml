@@ -2,7 +2,7 @@
 
 Este projeto implementa um pipeline de Machine Learning para classificar gêneros musicais baseados em letras de músicas. O componente foi desenvolvido para ser reutilizável, permitindo treinamento, exportação e inferência.
 
-## 📋 Funcionalidades
+## Funcionalidades
 
 - **Ingestão de Dados**: Leitura de dataset em formato Excel (.xlsx).
 - **Pré-processamento**: Limpeza de texto (remoção de pontuação, stopwords, normalização).
@@ -12,7 +12,7 @@ Este projeto implementa um pipeline de Machine Learning para classificar gênero
   - Random Forest - Alternativa
 - **Exportação**: O modelo treinado é serializado via joblib para consumo local ou via API.
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python 3.8+
 - Scikit-learn (Modelagem)
@@ -20,7 +20,7 @@ Este projeto implementa um pipeline de Machine Learning para classificar gênero
 - NLTK (Processamento de Linguagem Natural)
 - Joblib (Serialização de objetos)
 
-## 🚀 Como Executar
+## Como Executar
 
 ### 1. Pré-requisitos
 Certifique-se de ter o Python instalado. Recomenda-se o uso de um ambiente virtual (venv).
@@ -42,7 +42,7 @@ Ao rodar, o script solicitará a configuração do dataset:
 - **Opção Padrão**: Pressione **ENTER** (deixe vazio) para carregar automaticamente o arquivo `dataset_genero_musical.xlsx`.
 - **Opção Personalizada**: Digite o nome do seu arquivo (ex: `meus_dados.xlsx`) e pressione Enter.
 
-## 📊 Resultados e Métricas
+## Resultados e Métricas
 
 O script main.py executa o treinamento comparativo. O modelo padrão exportado é o Naive Bayes.
 
@@ -51,7 +51,7 @@ Exemplo de saída esperada no terminal:
 - Matriz de Confusão: Exibida no console após o treino.
 - Arquivo Gerado: ai_component_cla_lyrics.joblib (Artefato reutilizável).
 
-## 📦 Consumo do Componente (Exemplo)
+## Consumo do Componente (Exemplo)
 
 Para utilizar o classificador em outro script python, basta importar a classe:
 ```python
@@ -66,7 +66,7 @@ Para utilizar o classificador em outro script python, basta importar a classe:
     print(f"Gênero: {genero}")
     print(f"Probabilidades: {probs}")
 ```
-## 👥 Autores
+## Autores
 - Victor Augusto Farias Ferreira
 - Felipe Alexandre Pereira
 - Lucas Barroso Silvestrini
